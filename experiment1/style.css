@@ -1,0 +1,33 @@
+.content {
+    height: 100%;
+    width: 70%;
+    padding: 0px 30px;
+    float: right;
+    font-size: 17px;
+    font-family: "Helvetica", sans-serif;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.list ul{
+    list-style-type: square; 
+}
+.content h3{
+	color:rgb(56,98,67); 
+}
+.content h2{
+	font-family:times new roman;
+}
+.content p{
+	text-align:justify;
+	text-indent: 20px;
+}

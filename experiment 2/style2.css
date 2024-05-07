@@ -1,0 +1,12 @@
+.dropdown{
+	float:right;
+}
+#leftcol-fan,#leftcol-fridge,#rightcol-cool{
+	background-color:rgb(56,89,90);
+}
+.container{
+	text-align:center;
+}
+.container ul{
+	text-align:left;
+}

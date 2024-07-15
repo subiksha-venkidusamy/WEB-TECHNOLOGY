@@ -1,0 +1,56 @@
+/* login.component.css */
+.login-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 3;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  height:100%;
+}
+
+.easycart-text {
+  font-size: 4rem;
+  font-family: "Forte", sans-serif;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+form {
+  width: 80%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  margin-top: 1rem;
+}

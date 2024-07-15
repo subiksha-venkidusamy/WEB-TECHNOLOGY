@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Products</h2>
+  <div>
+    <label for="category">Filter by Category:</label>
+    <select id="category" (change)="filterByCategory($event)">
+      <option value="">All</option>
+      <option *ngFor="let category of categories" [value]="category">
+        {{ category }}
+      </option>
+    </select>
+  </div>
+  <div class="product-grid">
+    <div *ngFor="let product of filteredProducts" class="product-card">
+      <img [src]="product.imageUrl" alt="{{ product.name }}" />
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <p>Price: ₹{{ product.price }}</p>
+      <button (click)="addToCart(product)">Add to Cart</button>
+      <button (click)="buyNow(product)">Buy Now</button>
+    </div>
+  </div>
+</div>

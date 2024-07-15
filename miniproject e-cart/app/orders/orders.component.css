@@ -1,0 +1,40 @@
+/* Container for the orders */
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual order card */
+.order {
+  flex: 1 1 calc(33.333% - 40px); /* Adjusts width for a three-column layout with gap */
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card hover effect */
+.order:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Order heading */
+.order h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Order details */
+.order p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
